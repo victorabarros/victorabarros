@@ -1,4 +1,18 @@
-### Hi there 👋
+# Hi there, I'm Victor Barros! 👋
+
+<a href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">
+  <img align="left" width="20px" src="./assets/linkedin.jpeg" />
+</a>
+
+Passionate about entrepreneurship, technology and economics.
+
+- 🔭 currently working on [Hurb](http://github.com/hurbcom) as backend developer
+- 🌱 currently learning software architecture, TDD and frontend
+
+<a>
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact" />
+</a>
+<!-- https://github.com/anuraghazra/github-readme-stats -->
 
 <!--
 **victorabarros/victorabarros** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
