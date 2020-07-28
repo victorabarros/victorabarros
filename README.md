@@ -4,12 +4,12 @@
   <img width="25px" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin.jpeg" />
 </a>
 
-Passionate about entrepreneurship, technology and economics.
+<h3>Passionate about entrepreneurship, technology and economics.</h3>
 
 - 🔭 currently working on [Hurb](http://github.com/hurbcom) as backend developer
 - 🌱 currently learning software architecture, TDD and frontend
 
-<a>
+<a href="https://github.com/victorabarros?tab=repositories">
   <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide=shell" />
 </a>
 <!-- https://github.com/anuraghazra/github-readme-stats -->
