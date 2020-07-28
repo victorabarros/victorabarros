@@ -10,7 +10,7 @@
 - 🌱 currently learning software architecture, TDD and frontend
 
 <a href="https://github.com/victorabarros?tab=repositories">
-  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide=shell" />
+  <img width="600px" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide=shell" />
 </a>
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 
