@@ -11,7 +11,7 @@ Passionate about entrepreneurship, technology and economics.
 - 🌱 currently learning software architecture, TDD and frontend
 
 <a>
-  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact" />
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide=shell" />
 </a>
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 
