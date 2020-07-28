@@ -1,8 +1,9 @@
 # Hi there, I'm Victor Barros! 👋
 
 <a href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">
-  <img align="left" width="20px" src="./assets/linkedin.jpeg" />
+  <img align="left" width="25px" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin.jpeg" />
 </a>
+<br />
 
 Passionate about entrepreneurship, technology and economics.
 
