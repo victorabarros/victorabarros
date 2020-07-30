@@ -44,7 +44,7 @@ def hello():
                 </p>
                 <h3>Routes</h3>
                 <p>
-                    <code>/linkedin</code>
+                    <a href="/linkedin"><code>/linkedin</code></a>
                     <br>
                     query params: "size", "locale", "orientation", "theme"
                 </p>
