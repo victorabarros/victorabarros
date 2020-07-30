@@ -54,7 +54,6 @@ def hello():
     return wellcome_msg
 
 
-
 @app.route("/linkedin")
 def linkedin():
     """
