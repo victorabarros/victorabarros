@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -42,4 +43,5 @@ def _all():
     return resp
 
 
-app.run(port=80, host="0.0.0.0", debug=True)
+if __name__ == "__main__":
+    app.run(port=int(os.environ.get("PORT", 80)), host="0.0.0.0", debug=True)
