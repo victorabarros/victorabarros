@@ -9,6 +9,7 @@
 </a>
 
 <!-- TODO: Add gmail badge -->
+<!-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://victorabarros.herokuapp.com/linkedin?size=large&orientation=horizontal&theme=light&locale=en_US) -->
 
 <a href="https://github.com/victorabarros?tab=repositories">
   <img width="500px" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide=makefile,shell&hide_title=true&hide_border=true" />

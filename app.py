@@ -4,13 +4,55 @@ from flask import Flask, request
 app = Flask(__name__)
 
 HTML_BASE = """
-    <div class="LI-profile-badge"  data-version="v1" data-size="{size}" data-locale="{locale}" data-type="{orientation}" data-theme="{theme}" data-vanity="victor-almeida-barros">
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-        <a class="LI-simple-link" href='https://br.linkedin.com/in/victor-almeida-barros/en-us?trk=profile-badge'>
-        Victor Barros
-        </a>
-    </div>
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    Victor Barros'
+                </title>
+            </head>
+            <body>
+                <div class="LI-profile-badge"  data-version="v1" data-size="{size}" data-locale="{locale}" data-type="{orientation}" data-theme="{theme}" data-vanity="victor-almeida-barros">
+                <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+                    <a class="LI-simple-link" href='https://br.linkedin.com/in/victor-almeida-barros/en-us?trk=profile-badge'>
+                    Victor Barros
+                    </a>
+                </div>
+            </body>
+        </html>
 """
+
+
+@app.route("/")
+def hello():
+    wellcome_msg = """
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    Victor Barros'
+                </title>
+            </head>
+            <body>
+                <h1>
+                    Hi there, this is a <a href="http://github.com/victorabarros">Victor Barros'</a> aplication =]
+                </h1>
+                <p>
+                    You can find here the <a href="http://github.com/victorabarros/victorabarros">source code</a>.
+                    <br>
+                    Contributions are wellcome.
+                </p>
+                <h3>Routes</h3>
+                <p>
+                    <code>/linkedin</code>
+                    <br>
+                    query params: "size", "locale", "orientation", "theme"
+                </p>
+            </body>
+        </html>
+    """
+    return wellcome_msg
+
 
 
 @app.route("/linkedin")
