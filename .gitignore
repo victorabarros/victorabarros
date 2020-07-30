@@ -138,3 +138,4 @@ sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/react,node,visualstudiocode
 node_modules
+__pycache__/*
