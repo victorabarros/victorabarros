@@ -6,7 +6,7 @@
 - 🌱 currently learning software architecture, TDD and ReactJs
 
 <p align="center">
-  <!-- TODO: Add gmail badge -->
+  <!-- TODO: Add gmail and youtube(https://www.youtube.com/user/victorbarros1130/playlists) badge -->
   <a href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">
     <img width="75%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin_profile.png" />
   </a>

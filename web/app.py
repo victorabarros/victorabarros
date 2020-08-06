@@ -25,7 +25,7 @@ HTML_BASE = """
 
 @app.route("/")
 def hello():
-    wellcome_msg = """
+    return """
         <!DOCTYPE html>
         <html>
             <head>
@@ -51,7 +51,6 @@ def hello():
             </body>
         </html>
     """
-    return wellcome_msg
 
 
 @app.route("/linkedin")
@@ -84,5 +83,10 @@ def _all():
     return resp
 
 
+# TODO /certificates route
+
+
 if __name__ == "__main__":
     app.run(port=int(os.environ.get("PORT", 80)), host="0.0.0.0", debug=True)
+    # https://victorabarros.herokuapp.com/
+    # TODO usar domínio victorbarros.com.br
