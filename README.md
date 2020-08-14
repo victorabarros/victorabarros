@@ -8,11 +8,11 @@
 <p align="center">
   <!-- TODO: Add gmail and youtube(https://www.youtube.com/user/victorbarros1130/playlists) badge -->
   <a href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">
-    <img width="75%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin_profile.png" />
+    <img width="50%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin_profile.png" />
   </a>
 
   <a href="https://github.com/victorabarros?tab=repositories">
-    <img width="75%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide=makefile,shell&hide_title=true&hide_border=true" />
+    <img width="50%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide=makefile,shell&hide_title=false&hide_border=true" />
   </a>
 </p>
 
