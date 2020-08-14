@@ -85,6 +85,7 @@ def linkedin():
 
 @app.route("/sextou")
 def sextou():
+    # TODO reduzir e centralizar imagem.
     return """
         <!DOCTYPE html>
         <html>
