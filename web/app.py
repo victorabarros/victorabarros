@@ -23,6 +23,19 @@ HTML_BASE = """
 """
 
 
+def _all():
+    resp = ""
+    for size in ["medium", "large"]:
+        for locale in ["pt_BR", "en_US"]:
+            for orientation in ["horizontal", "vertical"]:
+                for theme in ["light", "dark"]:
+                    resp += HTML_BASE.format(size=size,
+                                             locale=locale,
+                                             orientation=orientation,
+                                             theme=theme)
+    return resp
+
+
 @app.route("/")
 def hello():
     return """
@@ -70,20 +83,24 @@ def linkedin():
     return HTML_BASE.format(**params)
 
 
-def _all():
-    resp = ""
-    for size in ["medium", "large"]:
-        for locale in ["pt_BR", "en_US"]:
-            for orientation in ["horizontal", "vertical"]:
-                for theme in ["light", "dark"]:
-                    resp += HTML_BASE.format(size=size,
-                                             locale=locale,
-                                             orientation=orientation,
-                                             theme=theme)
-    return resp
-
+@app.route("/sextou")
+def sextou():
+    return """
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    Victor Barros'
+                </title>
+            </head>
+            <body>
+                <div class="tenor-gif-embed" data-postid="17007663" data-share-method="host" data-width="100%" data-aspect-ratio="1.5709779179810726"><a href="https://tenor.com/view/renan-choque-de-cultura-toma-direto-beber-bebida-gif-17007663">Renan Choque De Cultura GIF</a> from <a href="https://tenor.com/search/renan-gifs">Renan GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+            </body>
+        </html>
+    """
 
 # TODO /certificates route
+# TODO /github route to github.com/victorabarros
 
 
 if __name__ == "__main__":
