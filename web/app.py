@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request
+from flask import Flask, request, redirect
 
 app = Flask(__name__)
 
@@ -48,7 +48,7 @@ def hello():
             </head>
             <body>
                 <h1>
-                    Hi there, this is a <a href="http://github.com/victorabarros">Victor Barros'</a> aplication =]
+                    Hi there, this is a Victor Barros' aplication =]
                 </h1>
                 <p>
                     You can find here the <a href="http://github.com/victorabarros/victorabarros">source code</a>.
@@ -60,6 +60,16 @@ def hello():
                     <a href="/linkedin"><code>/linkedin</code></a>
                     <br>
                     query params: "size", "locale", "orientation", "theme"
+                </p>
+                <p>
+                    <a href="/github"><code>/github</code></a>
+                    <br>
+                    redirect
+                </p>
+                <p>
+                    <a href="/certifications"><code>/certifications</code></a>
+                    <br>
+                    redirect
                 </p>
             </body>
         </html>
@@ -85,7 +95,6 @@ def linkedin():
 
 @app.route("/sextou")
 def sextou():
-    # TODO reduzir e centralizar imagem.
     return """
         <!DOCTYPE html>
         <html>
@@ -95,15 +104,26 @@ def sextou():
                 </title>
             </head>
             <body>
-                <div class="tenor-gif-embed" data-postid="17007663" data-share-method="host" data-width="100%" data-aspect-ratio="1.5709779179810726"><a href="https://tenor.com/view/renan-choque-de-cultura-toma-direto-beber-bebida-gif-17007663">Renan Choque De Cultura GIF</a> from <a href="https://tenor.com/search/renan-gifs">Renan GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                <div class="tenor-gif-embed" data-postid="17007663" data-width="65%" data-aspect-ratio="1.6">
+                    <a href="https://tenor.com/view/renan-choque-de-cultura-toma-direto-beber-bebida-gif-17007663">Renan Choque De Cultura GIF</a>
+                </div>
+                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
             </body>
         </html>
     """
 
-# TODO /certificates route
-# TODO /github route to github.com/victorabarros
+
+@app.route("/github")
+def github():
+    return redirect("http://www.github.com/victorabarros", code=302)
 
 
+@app.route("/certifications")
+def certifications():
+    return redirect("https://1drv.ms/u/s!AmYe_9MVaCDFrjfHQipGzFBnDwwR?e=W2yRAt", code=302)
+
+
+# TODO read https://gohugo.io/
 if __name__ == "__main__":
     app.run(port=int(os.environ.get("PORT", 80)), host="0.0.0.0", debug=True)
     # https://victoralmeidabarros.com/
