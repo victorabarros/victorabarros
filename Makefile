@@ -5,7 +5,7 @@ DOCKER_BASE_IMAGE=node:12.18
 
 clean-up:
 	@echo "\e[1m\033[33mRemoving containers\e[0m"
-	@docker rm -f ${APP_NAME}-debug
+	@docker ps -q --filter "name=${APP_NAME}" | xargs docker rm -f 
 
 debug:
 	@echo "\e[1m\033[33mDebug mode\e[0m"
