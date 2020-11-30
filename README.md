@@ -7,7 +7,7 @@
 
 <p align="center">
   <!-- TODO: Add gmail and youtube(https://www.youtube.com/user/victorbarros1130/playlists) badge -->
-  <!-- TODO: Add hackerrank https://www.hackerrank.com/victorbarros1130https://www.hackerrank.com/victorbarros1130 -->
+  <!-- TODO: Add hackerrank https://www.hackerrank.com/victorbarros1130 -->
   <a href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">
     <img width="50%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin_profile.png" />
   </a>
