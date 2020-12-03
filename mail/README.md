@@ -4,7 +4,7 @@ https://youtu.be/IUSIZbedv08
 
 ## Hosting on DigitalOcean
 
-ssh -i ./.ssh/id_rsa root@142.93.201.54
+`ssh -i ./.ssh/id_rsa root@142.93.201.54`
 
 ## MailCow as mail manager server
 
