@@ -1,6 +1,5 @@
 # DB
 
-- `ssh -i ./.ssh/id_rsa root@142.93.201.54`
 - `docker exec -it mailcowdockerized_mysql-mailcow_1 bash`
 - `env | grep MYSQL`
 - `mysql -u root -p`
@@ -225,5 +224,4 @@ MariaDB [mailcow]> SELECT * FROM versions LIMIT 10;
 | GUID        | 25e3602fe571fff3752330f6f6219858932612ea7e366603f23542ba5d11a9f5 | 2020-12-01 02:15:00 |
 +-------------+------------------------------------------------------------------+---------------------+
 2 rows in set (0.000 sec)
-
 ```
