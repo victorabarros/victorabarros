@@ -1,1 +1,0 @@
-ssh -i ./.ssh/id_rsa root@134.209.212.132
