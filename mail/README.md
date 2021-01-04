@@ -20,4 +20,6 @@ https://youtu.be/IUSIZbedv08
 
 http://mail.victorbarros.com.br/api/#/
 
-`curl -X GET "http://mail.victorbarros.com.br/api/v1/get/mailbox/all" -H "accept: application/json" -H "X-API-Key: "`
+`curl -X GET "http://mail.victorbarros.com.br/api/v1/get/mailbox/all" -H "accept: application/json" -H "X-API-Key: API-KEY"`
+
+`curl -X GET "http://mail.meupixfacil.com/api/v1/get/mailbox/all" -H  "accept: application/json" -H  "X-API-Key: API-KEY"`
