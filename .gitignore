@@ -141,3 +141,5 @@ node_modules
 __pycache__/*
 */.ssh/
 */.passwords
+*id_rsa*
+*.ovpn
