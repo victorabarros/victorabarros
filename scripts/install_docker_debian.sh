@@ -8,4 +8,4 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 sudo groupadd docker
 sudo usermod -aG docker $USER
 docker run hello-world
-docker run -it alpine sh -c 'ping google.com'
+# docker run -it alpine sh -c 'ping google.com'
