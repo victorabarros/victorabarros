@@ -1,10 +1,5 @@
 # OpenVPN server with Docker
 
-Based on:
-
-- https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04
-- https://github.com/kylemanna/docker-openvpn
-
 ## Generate id_rsa
 
 - `ssh-keygen`
@@ -47,3 +42,7 @@ cat alloyDev.ovpn
 ```sh
 sudo openvpn --config alloyDev.ovpn
 ```
+
+## Based on
+
+- https://github.com/kylemanna/docker-openvpn
