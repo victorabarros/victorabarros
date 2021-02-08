@@ -15,3 +15,6 @@ Network and Computer Security|https://ocw.mit.edu/courses/electrical-engineering
 Cryptography and Cryptanalysis|https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-875-cryptography-and-cryptanalysis-spring-2005/
 User Interface Design and Implementation|https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-831-user-interface-design-and-implementation-spring-2011/
 Game Theory with Engineering Applications|https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-254-game-theory-with-engineering-applications-spring-2010/
+
+- https://github.com/kamranahmedse/developer-roadmap#introduction
+- https://github.com/ossu/computer-science
