@@ -43,6 +43,8 @@ docker run -v $OVPN_DATA:/etc/openvpn --rm kylemanna/openvpn ovpn_getclient vict
 sudo openvpn --config victor.ovpn
 ```
 
+Don't forget to open firewall rule to port 1194.
+
 ## Based on
 
 - https://github.com/kylemanna/docker-openvpn
