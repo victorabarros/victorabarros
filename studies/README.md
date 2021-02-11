@@ -1,5 +1,16 @@
 # Studies
 
+## hard
+
+### Priorities
+
+|topic|font|
+-|-
+kotlin|
+graphql|
+Mobile architecture|
+event sourcing architecture|
+
 |topic|font|
 -|-
 Computer Algorithms in Systems Engineering|https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-204-computer-algorithms-in-systems-engineering-spring-2010/
@@ -18,3 +29,9 @@ Game Theory with Engineering Applications|https://ocw.mit.edu/courses/electrical
 
 - https://github.com/kamranahmedse/developer-roadmap#introduction
 - https://github.com/ossu/computer-science
+
+## soft
+
+|topic|font|
+-|-
+english speaking|
