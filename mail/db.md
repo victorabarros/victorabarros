@@ -2,7 +2,7 @@
 
 - `docker exec -it mailcowdockerized_mysql-mailcow_1 bash`
 - `env | grep MYSQL`
-- `mysql -u root -p`
+- `mysql -u victor -p`
 
 ```sql
 MariaDB [(none)]> show databases;
