@@ -6,7 +6,6 @@
 
 |topic|font|
 -|-
-kotlin|
 graphql|
 Mobile architecture|
 event sourcing architecture|

@@ -17,7 +17,7 @@ debug-python:
 	@docker run -it -v ${PWD}:${APP_DIR} -w ${APP_DIR} \
 		-p 8093:80 --rm --name ${APP_NAME}-python-debug python:3.8 bash
 
-run-python:
+run-web:
 	@clear
 	@echo "\e[1m\033[33mRunning python app at http://localhost:8094/\e[0m"
 	@docker run -it -v ${PWD}:${APP_DIR} -w ${APP_DIR} \
