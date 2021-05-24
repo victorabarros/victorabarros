@@ -8,3 +8,9 @@
   - deploy on vercel
   - host on victorbarros.com.br
   - add a portifoil router with training buddy embed(figma)
+
+## Steps
+
+### webapp
+
+`npx create-next-app webapp --typescript`
