@@ -4,8 +4,6 @@
 <h3>Passionate about entrepreneurship, technology and economics.</h3>
 
 <p align="center">
-  <!-- TODO: Add gmail and youtube(https://www.youtube.com/user/victorbarros1130/playlists) badge -->
-  <!-- TODO: Add hackerrank https://www.hackerrank.com/victorbarros1130 -->
   <a href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">
     <img width="50%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin_profile.png" />
   </a>
@@ -15,10 +13,14 @@
   </a>
 </p>
 
+----
+
 <p>
+  <!-- TODO more certificates: https://www.hackerrank.com/skills-verification -->
   <a href="https://www.hackerrank.com/victorbarros1130">
     <img width="150px" src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png" />
   </a>
+  <!-- TODO: Add gmail -->
 </p>
 
 <!--
