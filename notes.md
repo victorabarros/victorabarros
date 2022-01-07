@@ -2,15 +2,11 @@
 
 ## TODO
 
+- https://savelev.medium.com/improving-github-profile-with-highlights-and-achievements-be5fcdd558d
 - add .editorconfig
-- web
-  - remake with [nextjs](https://nextjs.org/)
-  - deploy on vercel
-  - host on victorbarros.com.br
-  - add a portifoil router with training buddy embed(figma)
-
-## Steps
-
-### webapp
-
-`npx create-next-app webapp --typescript`
+- webapp
+  - host on victoralmeidabarros.com victorbarros.dev
+  - add to portifoil
+    - training buddy embed(figma)
+    - urabot
+    - nsq article
