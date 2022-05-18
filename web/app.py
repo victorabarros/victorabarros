@@ -1,5 +1,6 @@
 import os
 from flask import Flask, request, redirect
+# TODO use flask render_template https://cs50.harvard.edu/x/2022/weeks/9/
 
 app = Flask(__name__)
 

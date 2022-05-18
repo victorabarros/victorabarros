@@ -143,3 +143,4 @@ __pycache__/*
 */.passwords
 *id_rsa*
 *.ovpn
+.vscode/
