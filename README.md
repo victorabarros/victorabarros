@@ -3,6 +3,15 @@
 
 <h3>Passionate about entrepreneurship, technology and economics.</h3>
 
+<!--
+TODO
+- https://savelev.medium.com/improving-github-profile-with-highlights-and-achievements-be5fcdd558d
+- add current role
+- interesting
+- studing
+- tab to linkedin
+-->
+
 <p align="center">
   <a href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">
     <img width="50%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin_profile.png" />
@@ -22,10 +31,3 @@
   </a>
   <!-- TODO: Add gmail -->
 </p>
-
-<!--
-**victorabarros/victorabarros** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-- 🌱 I’m currently learning ...
--->
