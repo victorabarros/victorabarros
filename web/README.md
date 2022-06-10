@@ -9,6 +9,7 @@ TODO
 
 Inspires:
 - https://armand1m.dev/
+- https://www.attekita.com/
 
 Contribuitions:
 - https://github.com/PacktPublishing/Learn-Go-in-3-Hours/pull/3
