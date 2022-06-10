@@ -124,6 +124,28 @@ def certifications():
     return redirect("https://1drv.ms/u/s!AmYe_9MVaCDFrjfHQipGzFBnDwwR?e=W2yRAt", code=302)
 
 
+@app.route("/wallet")
+def wallet():
+    return """
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    Victor Barros' Wallet
+                </title>
+            </head>
+            <body>
+                <div>
+                    <img width="30%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/bitcoin_wallet.png" />
+                    <h4>
+                        1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx
+                    </h4>
+                </div>
+            </body>
+        </html>
+    """
+
+
 # TODO read https://gohugo.io/
 if __name__ == "__main__":
     app.run(port=int(os.environ.get("PORT", 80)), host="0.0.0.0", debug=True)
