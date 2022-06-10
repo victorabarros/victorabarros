@@ -135,11 +135,10 @@ def wallet():
                 </title>
             </head>
             <body>
-                <div>
-                    <img width="30%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/bitcoin_wallet.png" />
-                    <h4>
-                        1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx
-                    </h4>
+                <div align="center">
+                    <h2>Bitcoin Wallet</h2>'
+                    <img width="40%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/bitcoin_wallet.png" />
+                    <h2>1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx</h2>
                 </div>
             </body>
         </html>
