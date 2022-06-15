@@ -17,7 +17,7 @@ TODO
     <img width="50%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin_profile.png" />
   </a>
 
-  <a href="https://github.com/victorabarros?tab=repositories">
+  <a href="https://github.com/victorabarros?tab=repositories&sort=stargazers">
     <img width="50%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide_title=true&hide_border=true" />
   </a>
 </p>
