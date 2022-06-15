@@ -3,6 +3,8 @@
 <!--
 TODO
 
+- read https://gohugo.io/
+
 - host on victoralmeidabarros.com victorbarros.dev
 - https://aws.amazon.com/getting-started/hands-on/host-static-website/
 - https://www.freecodecamp.org/news/how-to-deploy-a-static-website-for-free-in-only-3-minutes-with-google-drive/
