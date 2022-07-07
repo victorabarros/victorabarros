@@ -1,1 +1,1 @@
-sudo ssh -i "id_rsa" victor@34.95.133.189
+sudo ssh -i "id_rsa" root@10.124.0.2

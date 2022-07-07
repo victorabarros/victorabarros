@@ -10,6 +10,8 @@ TODO
 - interesting
 - studing
 - tab to linkedin
+- Articles
+  - https://victoralmeidabarros.medium.com/nsq-with-docker-in-baby-steps-70-lines-of-code-381ac37eaf58
 -->
 
 <p align="center">

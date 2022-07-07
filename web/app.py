@@ -48,30 +48,30 @@ def hello():
                 </title>
             </head>
             <body>
-                <h1>
-                    Hi there, this is a Victor Barros' aplication =]
-                </h1>
-                <p>
-                    You can find here the <a href="http://github.com/victorabarros/victorabarros">source code</a>.
-                    <br>
-                    Contributions are wellcome.
-                </p>
-                <h3>Routes</h3>
-                <p>
-                    <a href="/linkedin"><code>/linkedin</code></a>
-                    <br>
-                    query params: "size", "locale", "orientation", "theme"
-                </p>
-                <p>
-                    <a href="/github"><code>/github</code></a>
-                    <br>
-                    redirect
-                </p>
-                <p>
-                    <a href="/certifications"><code>/certifications</code></a>
-                    <br>
-                    redirect
-                </p>
+                <h1>Welcome</h1>
+                <h1>This is a Victor Barros' web site =]</h1>
+                <br/>
+
+                <br/>
+                <h3>Contributions</h3>
+                <p><a target="_blank" href="https://github.com/PacktPublishing/Learn-Go-in-3-Hours/pull/3">PacktPublishing/Learn-Go-in-3-Hours</a></p>
+                <p><a target="_blank" href="https://github.com/nsqio/nsq/pull/1243">nsqio/nsq</a></p>
+                <p><a target="_blank" href="https://github.com/nsqio/nsqio.github.io/pull/60">nsqio/nsqio.github.io</a></p>
+                <p><a target="_blank" href="https://github.com/dgrijalva/jwt-go/issues/450">dgrijalva/jwt-go</a></p>
+
+                <br/>
+                <h3>Articles</h3>
+                <p><a target="_blank" href="https://victoralmeidabarros.medium.com/nsq-with-docker-in-baby-steps-70-lines-of-code-381ac37eaf58">NSQ with Docker in baby steps less than 70 lines of code</a></p>
+
+                <br/>
+                <h3>Projects</h3>
+                <p><a target="_blank" href="https://twitter.com/UraniumStockBot">UraBot</a></p>
+
+                <br/>
+                <h3>Social Medias</h3>
+                <p><a target="_blank" href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">linkedin</a></p>
+                <p><a target="_blank" href="http://www.github.com/victorabarros">github</a></p>
+                <p><a target="_blank" href="https://1drv.ms/u/s!AmYe_9MVaCDFgdJb6wue2OjtA5XXlg?e=IIG5Xf">certifications</a></p>
             </body>
         </html>
     """
@@ -114,16 +114,6 @@ def sextou():
     """
 
 
-@app.route("/github")
-def github():
-    return redirect("http://www.github.com/victorabarros", code=302)
-
-
-@app.route("/certifications")
-def certifications():
-    return redirect("https://1drv.ms/u/s!AmYe_9MVaCDFrjfHQipGzFBnDwwR?e=W2yRAt", code=302)
-
-
 @app.route("/wallet")
 def wallet():
     return """
@@ -148,3 +138,4 @@ def wallet():
 if __name__ == "__main__":
     app.run(port=int(os.environ.get("PORT", 80)), host="0.0.0.0", debug=True)
     # https://victoralmeidabarros.com/
+    # http://victorbarros.dev
