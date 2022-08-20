@@ -10,8 +10,6 @@ TODO
 - interesting
 - studing
 - tab to linkedin
-- Articles
-  - https://victoralmeidabarros.medium.com/nsq-with-docker-in-baby-steps-70-lines-of-code-381ac37eaf58
 -->
 
 <p align="center">
@@ -27,9 +25,7 @@ TODO
 ----
 
 <p>
-  <!-- TODO more certificates: https://www.hackerrank.com/skills-verification -->
   <a href="https://www.hackerrank.com/victorbarros1130">
     <img width="150px" src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png" />
   </a>
-  <!-- TODO: Add gmail -->
 </p>
