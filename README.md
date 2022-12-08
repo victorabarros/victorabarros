@@ -1,5 +1,4 @@
 # Hi there, I'm Victor Barros! 👋
-<!-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://victoralmeidabarros.com/linkedin?size=large&orientation=horizontal&theme=light&locale=en_US) -->
 
 <h3>Passionate about entrepreneurship, technology and economics.</h3>
 
