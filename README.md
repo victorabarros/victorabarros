@@ -1,6 +1,6 @@
 # Hi there, I'm Victor Barros! 👋
 
-<h3>Passionate about entrepreneurship, technology and economics.</h3>
+<h3>Passionate about entrepreneurship, technology and monetary theory.</h3>
 
 <!--
 TODO
@@ -12,7 +12,7 @@ TODO
 -->
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/victor-almeida-barros/?locale=en_US">
+  <a href="https://www.linkedin.com/in/victor-almeida-barros">
     <img width="50%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/linkedin_profile.png" />
   </a>
 
