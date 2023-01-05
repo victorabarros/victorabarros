@@ -3,8 +3,8 @@ APP_DIR = /src/${APP_NAME}
 PWD=$(shell pwd)
 DOCKER_BASE_IMAGE=node:12.18
 
-YELLOW=\e[1m\033[33m
-COLOR_OFF=\e[0m
+YELLOW=
+COLOR_OFF=
 
 clean-up:
 	@echo "${YELLOW}Removing containers${COLOR_OFF}"

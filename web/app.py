@@ -36,14 +36,14 @@ def hello():
 
                 <br/>
                 <h2>Social Medias</h2>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://www.linkedin.com/in/victor-almeida-barros/">linkedin</a></p>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="http://www.github.com/victorabarros">github</a></p>
+                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://www.linkedin.com/in/victor-almeida-barros/">Linkedin</a></p>
+                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="http://www.github.com/victorabarros">Github</a></p>
+                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://www.hackerrank.com/victorbarros1130">HackerRank</a></p>
 
                 <br/>
                 <h2>Certifications</h2>
                 <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://certs.duolingo.com/708c9de8137952ac95900efb90a31002">English, Duolingo</a></p>
                 <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://certificates.cs50.io/3fc935e2-a295-47c9-9dd4-3658ddfb84e7">CS50, Harvard</a></p>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://www.hackerrank.com/certificates/088a8a5f8c79">Python, HackerRank</a></p>
             </body>
         </html>
     """
