@@ -85,11 +85,15 @@ def wallet():
                     }
                 </script>
                 <div align="center">
-                    <h2>Buy me a Coffee</h2>
-                    <h3>Bitcoin Wallet</h3>
-                    <img width="40%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/bitcoin_wallet.png" />
-                    <h2>1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx</h2>
-                    <button onclick="myFunction()">copy</button>
+                    <h2>Bitcoin Wallet</h2>
+                    <img width="35%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/bitcoin_wallet.png" />
+                    <h3>
+                        1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx
+                        <button onclick="myFunction()">copy</button>
+                    </h3>
+                    <a href="https://www.buymeacoffee.com/victorbarros" target="_blank">
+                        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="60px">
+                    </a>
                 </div>
             </body>
         </html>
