@@ -4,8 +4,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route("/")
-def hello():
+def home():
     return """
         <!DOCTYPE html>
         <html>
@@ -45,13 +46,14 @@ def hello():
 
                 <br/>
                 <h2>Social Medias</h2>
-                <a style="padding: 20px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: black;color: white;" href="http://www.github.com/victorabarros" class="fa fa-github"></a>
-                <a style="padding: 20px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: #007bb5;color: white;" href="https://www.linkedin.com/in/victor-almeida-barros/" class="fa fa-linkedin"></a>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://www.hackerrank.com/victorbarros1130">HackerRank</a></p>
+                <a style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: black;color: white;" href="http://www.github.com/victorabarros" class="fa fa-github"></a>
+                <a style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: #007bb5;color: white;" href="https://www.linkedin.com/in/victor-almeida-barros/" class="fa fa-linkedin"></a>
+                <a style="margin: 0px 10px 10px 0px;" href="https://www.hackerrank.com/victorbarros1130"><img width="150px" src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png" /></a>
 
             </body>
         </html>
     """
+
 
 @app.route("/sextou")
 def sextou():
