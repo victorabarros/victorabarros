@@ -24,31 +24,128 @@ def home():
 
                 <br/>
                 <h2>Side Projects</h2>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://twitter.com/UraniumStockBot">UraBot</a></p>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://twitter.com/YooMoneyApp">YooMoney</a></p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://twitter.com/UraniumStockBot">
+                        UraBot
+                    </a>
+                </p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://twitter.com/YooMoneyApp">
+                        YooMoney
+                    </a>
+                </p>
 
                 <br/>
                 <h2>Articles</h2>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://victoralmeidabarros.medium.com/nsq-with-docker-in-baby-steps-70-lines-of-code-381ac37eaf58">NSQ with Docker in baby steps less than 70 lines of code</a></p>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://medium.com/@victoralmeidabarros/developing-a-miniapp-for-the-klutch-credit-card-df33f014183e">Developing a MiniApp for the Klutch Credit Card</a></p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://victoralmeidabarros.medium.com/nsq-with-docker-in-baby-steps-70-lines-of-code-381ac37eaf58"
+                    >
+                            NSQ with Docker in baby steps less than 70 lines of code
+                    </a>
+                </p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://victoralmeidabarros.medium.com/developing-a-miniapp-for-the-klutch-credit-card-df33f014183e"
+                    >
+                        Developing a MiniApp for the Klutch Credit Card
+                    </a>
+                </p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://victoralmeidabarros.medium.com/install-docker-with-one-single-command-debian-and-ubuntu-ce021df0f976"
+                    >
+                        Install Docker with one single command (Debian and Ubuntu)
+                    </a>
+                </p>
 
                 <br/>
                 <h2>Certifications</h2>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://certificates.cs50.io/3fc935e2-a295-47c9-9dd4-3658ddfb84e7">CS50, Harvard</a></p>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://certs.duolingo.com/708c9de8137952ac95900efb90a31002">English, Duolingo</a></p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://certificates.cs50.io/3fc935e2-a295-47c9-9dd4-3658ddfb84e7"
+                    >
+                        CS50, Harvard
+                    </a>
+                </p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://certs.duolingo.com/708c9de8137952ac95900efb90a31002"
+                    >
+                        English, Duolingo
+                    </a>
+                </p>
 
                 <br/>
                 <h2>Open Source Contributions</h2>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://github.com/dgrijalva/jwt-go/issues/450">dgrijalva/jwt-go</a></p>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://github.com/nsqio/nsq/pull/1243">nsqio/nsq</a></p>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://github.com/nsqio/nsqio.github.io/pull/60">nsqio/nsqio.github.io</a></p>
-                <p style="font-size: 20px;"><a target="_blank" style="text-decoration: none" href="https://github.com/PacktPublishing/Learn-Go-in-3-Hours/pull/3">PacktPublishing/Learn-Go-in-3-Hours</a></p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://github.com/dgrijalva/jwt-go/issues/450"
+                    >
+                        dgrijalva/jwt-go
+                    </a>
+                </p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://github.com/nsqio/nsq/pull/1243"
+                    >
+                        nsqio/nsq
+                    </a>
+                </p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://github.com/nsqio/nsqio.github.io/pull/60"
+                    >
+                        nsqio/nsqio.github.io
+                    </a>
+                </p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="https://github.com/PacktPublishing/Learn-Go-in-3-Hours/pull/3"
+                    >
+                        PacktPublishing/Learn-Go-in-3-Hours
+                    </a>
+                </p>
 
                 <br/>
                 <h2>Social Medias</h2>
-                <a style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: black;color: white;" href="http://www.github.com/victorabarros" class="fa fa-github"></a>
-                <a style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: #007bb5;color: white;" href="https://www.linkedin.com/in/victor-almeida-barros/" class="fa fa-linkedin"></a>
-                <a style="margin: 0px 10px 10px 0px;" href="https://www.hackerrank.com/victorbarros1130"><img width="150px" src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png" /></a>
+                <a
+                    style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: black;color: white;"
+                    href="http://www.github.com/victorabarros"
+                    class="fa fa-github"></a>
+                <a
+                    style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: #007bb5;color: white;"
+                    href="https://www.linkedin.com/in/victor-almeida-barros/"
+                    class="fa fa-linkedin"></a>
+                <a
+                    style="margin: 0px 10px 10px 0px;"
+                    href="https://www.hackerrank.com/victorbarros1130"><img
+                    width="150px"
+                    src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png"/></a>
 
             </body>
         </html>
