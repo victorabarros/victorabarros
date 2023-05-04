@@ -67,7 +67,7 @@ def home():
                         style="text-decoration: none"
                         href="https://victoralmeidabarros.medium.com/install-docker-with-one-single-command-debian-and-ubuntu-ce021df0f976"
                     >
-                        Install Docker with one single command (Debian and Ubuntu)
+                        Installing Docker with one single command (Debian and Ubuntu)
                     </a>
                 </p>
 
