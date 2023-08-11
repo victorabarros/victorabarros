@@ -56,10 +56,11 @@ const openSourceContributions = [
 
 const Link = ({ name, url }) => <Text href={url} style={styles.linkText}>{name}</Text>
 
-const Line = () => <View style={{ height: 20, overflow: "hidden" }}>
-  <Text style={{ color: "lightgrey" }}>{"=".repeat(250)}</Text>
-</View>
-
+const Line = () => (
+  <View style={{ height: 20, overflow: "hidden", marginVertical: 30 }}>
+    <Text style={{ color: "lightgrey" }}>{"=".repeat(1000)}</Text>
+  </View>
+)
 const App = () => (
   <View style={styles.root}>
 
@@ -93,6 +94,8 @@ const App = () => (
           {openSourceContributions.map(Link)}
         </View>
 
+        {/* TODO add social medias */}
+
         <Line />
 
       </View>
@@ -125,19 +128,19 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
   },
   headerText: {
-    fontSize: 30,
+    fontSize: 50,
     fontWeight: 500,
     color: 'rgb(255, 196, 71)',
     marginVertical: 10,
   },
   labelText: {
     color: "white",
-    lineHeight: 45,
-    fontSize: 25,
+    lineHeight: 50,
+    fontSize: 30,
   },
   linkText: {
     fontSize: 20,
-    marginBottom: 10,
+    lineHeight: 40,
     color: 'rgb(255, 196, 71)',
     alignSelf: "flex-start",
   },
