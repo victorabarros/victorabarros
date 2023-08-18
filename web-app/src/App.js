@@ -37,6 +37,10 @@ const certifications = [
 ]
 const openSourceContributions = [
   {
+    name: "w3b3d3v/w3d-podcast",
+    url: "https://github.com/w3b3d3v/w3d-podcast/pull/1"
+  },
+  {
     name: "dgrijalva/jwt-go",
     url: "https://github.com/dgrijalva/jwt-go/issues/450"
   },

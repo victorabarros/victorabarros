@@ -98,6 +98,15 @@ def home():
                     <a
                         target="_blank"
                         style="text-decoration: none"
+                        href="https://github.com/w3b3d3v/w3d-podcast/pull/1"
+                    >
+                        w3b3d3v/w3d-podcast
+                    </a>
+                </p>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
                         href="https://github.com/dgrijalva/jwt-go/issues/450"
                     >
                         dgrijalva/jwt-go
