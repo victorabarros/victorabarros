@@ -141,6 +141,17 @@ def home():
                 </p>
 
                 <br/>
+                <h2>Professional Membership</h2>
+                <p style="font-size: 20px;">
+                    <a
+                        target="_blank"
+                        style="text-decoration: none"
+                        href="http://member.acm.org/~victorbarros"
+                    >
+                        Association for Computing Machinery
+                    </a>
+                </p>
+                <br/>
                 <h2>Social Medias</h2>
                 <a
                     style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: black;color: white;"

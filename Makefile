@@ -32,3 +32,8 @@ run-web:
 ips:
 	@echo "${YELLOW}ips${COLOR_OFF}"
 	@docker ps -q --filter "name=${APP_NAME}" | xargs docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
+
+screen-mobile:
+	scrcpy \
+		--window-x 1950 \
+		--window-height 850
