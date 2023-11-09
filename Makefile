@@ -37,3 +37,6 @@ screen-mobile:
 	scrcpy \
 		--window-x 1950 \
 		--window-height 850
+
+clean-node-modules:
+	@npx npkill
