@@ -2,16 +2,6 @@
 
 <!-- <h3>Passionate about entrepreneurship, technology and monetary theory.</h3> -->
 
-<!--
-TODO
-- https://savelev.medium.com/improving-github-profile-with-highlights-and-achievements-be5fcdd558d
-- add current role
-- interesting
-- studing
-- tab to linkedin
-- use react-native-web to create the page
--->
-
 <p align="center">
   <!-- <a href="https://www.linkedin.com/in/victor-almeida-barros">
     <img width="50%" src="https://github.com/victorabarros/victorabarros/blob/master/assets/linkedin_profile_dark.png?raw=true" />
@@ -81,3 +71,5 @@ TODO
   </a>
 
 </p>
+
+<!-- [## TODO](./notes.md) -->
