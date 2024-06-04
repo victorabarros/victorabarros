@@ -9,12 +9,13 @@ TODO
 - interesting
 - studing
 - tab to linkedin
+- use react-native-web to create the page
 -->
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/victor-almeida-barros">
+  <!-- <a href="https://www.linkedin.com/in/victor-almeida-barros">
     <img width="50%" src="https://github.com/victorabarros/victorabarros/blob/master/assets/linkedin_profile_dark.png?raw=true" />
-  </a>
+  </a> -->
 
   <a href="https://github.com/victorabarros?tab=repositories&sort=stargazers">
     <img width="50%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide_title=true&hide_border=true&hide=html" />
