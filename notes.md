@@ -12,6 +12,7 @@
 
 - Contributions
   - sync blockchain transactions https://twitter.com/messages/507185539-935655939474100224
+  - https://github.com/HubSpot/oauth-quickstart-nodejs/issues/33
 
 - https://savelev.medium.com/improving-github-profile-with-highlights-and-achievements-be5fcdd558d
 - add current role https://superhuman.com/jobs#:~:text=VICTOR,code%2C%20and%20read
