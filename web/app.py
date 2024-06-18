@@ -106,6 +106,15 @@ def home():
 
                 <br/>
                 <h2>Open Source Contributions</h2>
+                <p style="font-size: 23px">
+                <a
+                    target="_blank"
+                    style="text-decoration: none"
+                    href="https://github.com/aljazceru/awesome-nostr/pull/431"
+                >
+                    aljazceru/awesome-nostr
+                </a>
+                </p>
                 <p style="font-size: 23px;">
                     <a
                         target="_blank"

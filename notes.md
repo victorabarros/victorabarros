@@ -10,13 +10,11 @@
 
 ## TODO
 
+- Contributions
+  - sync blockchain transactions https://twitter.com/messages/507185539-935655939474100224
+
 - https://savelev.medium.com/improving-github-profile-with-highlights-and-achievements-be5fcdd558d
-- add current role
-- interesting
-- studing
-- tab to linkedin
-- use react-native-web to create the page
-- use https://www.000webhost.com/ to host
+- add current role https://superhuman.com/jobs#:~:text=VICTOR,code%2C%20and%20read
 
 Portfolios Inspires:
 - https://armand1m.dev/
@@ -25,14 +23,10 @@ Portfolios Inspires:
 - https://github.com/andressadotpy/andressadotpy.github.io
 - https://hashnode.com/post/30-web-developer-portfolios-to-inspire-you-cknfx6wdg069kxws1bjjv8mhw
 
-- read https://gohugo.io/
-- host on victoralmeidabarros.com
 - https://aws.amazon.com/getting-started/hands-on/host-static-website/
 - https://www.freecodecamp.org/news/how-to-deploy-a-static-website-for-free-in-only-3-minutes-with-google-drive/
 - tailwind, css simple|https://github.com/Savinvadim1312/notjustdev https://youtu.be/YnvH-ouX_y4
 
 contents:
 
-- Contributions
-  - sync blockchain transactions https://twitter.com/messages/507185539-935655939474100224
-- Add gmail
+- Add gmail gabget
