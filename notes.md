@@ -10,6 +10,7 @@
 
 ## TODO
 
+- deploy victorabarros.github.io to website.victorbarros.com
 - Contributions
   - sync blockchain transactions https://twitter.com/messages/507185539-935655939474100224 https://github.com/adilmoujahid/blockchain-python-tutorial
 
