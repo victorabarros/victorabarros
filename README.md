@@ -26,7 +26,7 @@
       </svg>
   </a>
 
-  <a href="https://www.linkedin.com/in/victor-almeida-barros/">
+  <a href="https://www.linkedin.com/in/victor-barros-dev/">
       <svg
           style="margin: 0px 10px 10px 0px;padding: 10px;width: 50px;height: 50px;"
           xmlns="http://www.w3.org/2000/svg"

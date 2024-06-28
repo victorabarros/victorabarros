@@ -180,7 +180,7 @@ def home():
                     class="fa fa-github"></a>
                 <a
                     style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: #007bb5;color: white;"
-                    href="https://www.linkedin.com/in/victor-almeida-barros/"
+                    href="https://www.linkedin.com/in/victor-barros-dev/"
                     class="fa fa-linkedin"></a>
                 <a
                     style="margin: 0px 10px 10px 0px;"
