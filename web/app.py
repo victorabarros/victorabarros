@@ -10,52 +10,45 @@ def home():
     return """
         <!DOCTYPE html>
         <html>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        >
             <head>
                 <title>
                     Victor Barros'
                 </title>
             </head>
 
-            <body style="margin-left: 10%;margin-top: 3%;">
+            <body style="margin-left: 10%;margin-top: 3%;"
+        >
                 <h1>Welcome</h1>
-                <h1>This is a Victor Barros' web site</h1>
+                <h1>This is a Victor Barros' web site =]</h1>
                 <br/>
 
-                <h2>Bio</h2>
-                <p style="font-size: 23px">
-                Currently working at
-                <a
-                    target="_blank"
-                    style="text-decoration: none"
-                    href="https://superhuman.com/jobs#:~:text=VICTOR,code%2C%20and%20read"
-                >
-                    Superhuman
-                </a>
-                </p>
-
+                TODO add https://github.com/victorabarros/victorabarros/commit/167f98dd096a4f0fe9e2a06fe24bcbbd8476fbf1
                 <br/>
                 <h2>Side Projects</h2>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
-                        href="https://twitter.com/UraniumStockBot">
+                        href="https://twitter.com/UraniumStockBot"
+                    >
                         UraBot
                     </a>
                 </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
-                        href="https://twitter.com/YooMoneyApp">
+                        href="https://twitter.com/YooMoneyApp"
+                    >
                         YooMoney
                     </a>
                 </p>
 
                 <br/>
                 <h2>Articles</h2>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -64,7 +57,7 @@ def home():
                             NSQ with Docker in baby steps less than 70 lines of code
                     </a>
                 </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -73,7 +66,7 @@ def home():
                         Developing a MiniApp for the Klutch Credit Card
                     </a>
                 </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -85,7 +78,7 @@ def home():
 
                 <br/>
                 <h2>Certifications</h2>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -94,7 +87,7 @@ def home():
                         CS50, Harvard
                     </a>
                 </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -106,16 +99,8 @@ def home():
 
                 <br/>
                 <h2>Open Source Contributions</h2>
-                <p style="font-size: 23px">
-                <a
-                    target="_blank"
-                    style="text-decoration: none"
-                    href="https://github.com/aljazceru/awesome-nostr/pull/431"
-                >
-                    aljazceru/awesome-nostr
-                </a>
-                </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
+                TODO add https://github.com/victorabarros/victorabarros/commit/4fd89c0849afcff2f8d1e48323ca5816dcc1941f
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -124,7 +109,7 @@ def home():
                         w3b3d3v/w3d-podcast
                     </a>
                 </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -133,7 +118,7 @@ def home():
                         dgrijalva/jwt-go
                     </a>
                 </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -142,7 +127,7 @@ def home():
                         nsqio/nsq
                     </a>
                 </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -151,7 +136,7 @@ def home():
                         nsqio/nsqio.github.io
                     </a>
                 </p>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -163,7 +148,7 @@ def home():
 
                 <br/>
                 <h2>Professional Membership</h2>
-                <p style="font-size: 23px;">
+                <p style="font-size: 20px;">
                     <a
                         target="_blank"
                         style="text-decoration: none"
@@ -184,10 +169,9 @@ def home():
                     class="fa fa-linkedin"></a>
                 <a
                     style="margin: 0px 10px 10px 0px;"
-                    href="https://www.hackerrank.com/victorbarros1130"><img
-                    width="150px"
-                    src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png"/></a>
-
+                    href="https://www.hackerrank.com/victorbarros1130">
+                        <img width="150px" src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png">
+                </a>
             </body>
         </html>
     """
