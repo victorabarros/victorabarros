@@ -10,256 +10,293 @@ def home():
     return """
         <!DOCTYPE html>
         <html>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        >
-            <head>
-                <title>
-                    Victor Barros'
-                </title>
-            </head>
 
-            <body style="margin-left: 10%;margin-top: 3%;"
-        >
-                <h1>Welcome</h1>
-                <h1>This is a Victor Barros' web site =]</h1>
-                <br/>
+        <head>
+        <title>Victor Barros'</title>
+        </head>
 
-                TODO add https://github.com/victorabarros/victorabarros/commit/167f98dd096a4f0fe9e2a06fe24bcbbd8476fbf1
-                <br/>
-                <h2>Side Projects</h2>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://twitter.com/UraniumStockBot"
-                    >
-                        UraBot
-                    </a>
-                </p>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://twitter.com/YooMoneyApp"
-                    >
-                        YooMoney
-                    </a>
-                </p>
+        <body style="margin-left: 10%; margin-top: 3%">
+        <h1>Welcome</h1>
+        <h1>This is a Victor Barros' web site</h1>
+        <br />
 
-                <br/>
-                <h2>Articles</h2>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://victoralmeidabarros.medium.com/nsq-with-docker-in-baby-steps-70-lines-of-code-381ac37eaf58"
-                    >
-                            NSQ with Docker in baby steps less than 70 lines of code
-                    </a>
-                </p>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://victoralmeidabarros.medium.com/developing-a-miniapp-for-the-klutch-credit-card-df33f014183e"
-                    >
-                        Developing a MiniApp for the Klutch Credit Card
-                    </a>
-                </p>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://victoralmeidabarros.medium.com/install-docker-with-one-single-command-debian-and-ubuntu-ce021df0f976"
-                    >
-                        Installing Docker with one single command (Debian and Ubuntu)
-                    </a>
-                </p>
+        <h2>Bio</h2>
+        <p style="font-size: 23px; margin-left: 15px;">
+            Currently working at
+            <a target="_blank" style="text-decoration: none"
+            href="https://superhuman.com/jobs#:~:text=VICTOR,code%2C%20and%20read">
+            Superhuman
+            </a>
+        </p>
+        <br />
 
-                <br/>
-                <h2>Certifications</h2>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://certificates.cs50.io/3fc935e2-a295-47c9-9dd4-3658ddfb84e7"
-                    >
-                        CS50, Harvard
-                    </a>
-                </p>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://certs.duolingo.com/708c9de8137952ac95900efb90a31002"
-                    >
-                        English, Duolingo
-                    </a>
-                </p>
+        <h2>Side Projects</h2>
+        <p style="font-size: 23px; margin-left: 15px;">
+            <a target="_blank" style="text-decoration: none" href="https://github.com/victorabarros/ura-bot">
+            UraBot
+            </a>
+            <br />
+            -
+            <a target="_blank" style="text-decoration: none;font-size: 20px;" href="https://twitter.com/UraniumStockBot">
+            Twitter
+            </a>
+            <br />
+            -
+            <a target="_blank" style="text-decoration: none;font-size: 20px;" href="https://nostter.app/urastockbot@iris.to">
+            NOSTR
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none" href="https://x.com/BRLBot">
+            BRLBot
+            </a>
+            <br />
+        </p>
+        <!-- <p style="font-size: 23px; margin-left: 15px;">
+            <a
+                target="_blank"
+                style="text-decoration: none"
+                href="https://twitter.com/YooMoneyApp"
+            >
+                YooMoney
+            </a>
+            </p> -->
 
-                <br/>
-                <h2>Open Source Contributions</h2>
-                <p style="font-size: 20px;">
-                TODO add https://github.com/victorabarros/victorabarros/commit/4fd89c0849afcff2f8d1e48323ca5816dcc1941f
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://github.com/w3b3d3v/w3d-podcast/pull/1"
-                    >
-                        w3b3d3v/w3d-podcast
-                    </a>
-                </p>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://github.com/dgrijalva/jwt-go/issues/450"
-                    >
-                        dgrijalva/jwt-go
-                    </a>
-                </p>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://github.com/nsqio/nsq/pull/1243"
-                    >
-                        nsqio/nsq
-                    </a>
-                </p>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://github.com/nsqio/nsqio.github.io/pull/60"
-                    >
-                        nsqio/nsqio.github.io
-                    </a>
-                </p>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="https://github.com/PacktPublishing/Learn-Go-in-3-Hours/pull/3"
-                    >
-                        PacktPublishing/Learn-Go-in-3-Hours
-                    </a>
-                </p>
+        <br />
+        <h2>Articles</h2>
+        <p style="font-size: 23px; margin-left: 15px;">
+            <a target="_blank" style="text-decoration: none"
+            href="https://victoralmeidabarros.medium.com/nsq-with-docker-in-baby-steps-70-lines-of-code-381ac37eaf58">
+            NSQ with Docker in baby steps less than 70 lines of code
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none"
+            href="https://victoralmeidabarros.medium.com/developing-a-miniapp-for-the-klutch-credit-card-df33f014183e">
+            Developing a MiniApp for the Klutch Credit Card
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none"
+            href="https://victoralmeidabarros.medium.com/install-docker-with-one-single-command-debian-and-ubuntu-ce021df0f976">
+            Installing Docker with one single command (Debian and Ubuntu)
+            </a>
+        </p>
 
-                <br/>
-                <h2>Professional Membership</h2>
-                <p style="font-size: 20px;">
-                    <a
-                        target="_blank"
-                        style="text-decoration: none"
-                        href="http://member.acm.org/~victorbarros"
-                    >
-                        Association for Computing Machinery
-                    </a>
-                </p>
-                <br/>
-                <h2>Social Medias</h2>
-                <a
-                    style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: black;color: white;"
-                    href="http://www.github.com/victorabarros"
-                    class="fa fa-github"></a>
-                <a
-                    style="margin: 0px 10px 10px 0px;padding: 10px;font-size: 30px;width: 50px;text-align: center;text-decoration: none;background: #007bb5;color: white;"
-                    href="https://www.linkedin.com/in/victor-barros-dev/"
-                    class="fa fa-linkedin"></a>
-                <a
-                    style="margin: 0px 10px 10px 0px;"
-                    href="https://www.hackerrank.com/victorbarros1130">
-                        <img width="150px" src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png">
-                </a>
-            </body>
+        <br />
+        <h2>Certifications</h2>
+        <p style="font-size: 23px; margin-left: 15px;">
+            <a target="_blank" style="text-decoration: none"
+            href="https://certificates.cs50.io/3fc935e2-a295-47c9-9dd4-3658ddfb84e7">
+            CS50, Harvard
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none" href="https://certs.duolingo.com/708c9de8137952ac95900efb90a31002">
+            English, Duolingo
+            </a>
+        </p>
+
+        <br />
+        <h2>Open Source Contributions</h2>
+        <!-- TODO
+            https://github.com/nostr-dev-kit/ndk/pull/237
+            https://github.com/adilmoujahid/blockchain-python-tutorial/pull/15 -->
+        <p style="font-size: 23px; margin-left: 15px;">
+            <a target="_blank" style="text-decoration: none" href="https://github.com/aljazceru/awesome-nostr/pull/431">
+            aljazceru/awesome-nostr
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none" href="https://github.com/w3b3d3v/w3d-podcast/pull/1">
+            w3b3d3v/w3d-podcast
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none" href="https://github.com/dgrijalva/jwt-go/issues/450">
+            dgrijalva/jwt-go
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none" href="https://github.com/nsqio/nsq/pull/1243">
+            nsqio/nsq
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none" href="https://github.com/nsqio/nsqio.github.io/pull/60">
+            nsqio/nsqio.github.io
+            </a>
+            <br />
+            <br />
+            <a target="_blank" style="text-decoration: none"
+            href="https://github.com/PacktPublishing/Learn-Go-in-3-Hours/pull/3">
+            PacktPublishing/Learn-Go-in-3-Hours
+            </a>
+        </p>
+
+        <br />
+        <h2>Professional Membership</h2>
+        <p style="font-size: 23px; margin-left: 15px;">
+            <a target="_blank" style="text-decoration: none" href="http://member.acm.org/~victorbarros">
+            Association for Computing Machinery
+            </a>
+        </p>
+        <br />
+        <h2>Social Medias</h2>
+
+        <a target="_blank" style="text-decoration: none" href="http://www.github.com/victorabarros">
+            <svg style="
+                margin: 0px 10px 10px 0px;
+                padding: 10px;
+                width: 50px;
+                height: 50px;
+                " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path fill="black"
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+            </svg>
+        </a>
+
+        <a target="_blank" style="text-decoration: none" href="https://www.linkedin.com/in/victor-barros-dev/">
+            <svg style="
+                margin: 0px 10px 10px 0px;
+                padding: 10px;
+                width: 50px;
+                height: 50px;
+                " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path fill="#007bb5"
+                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+            </svg>
+        </a>
+
+        <a target="_blank" style="text-decoration: none" href="https://www.hackerrank.com/victorbarros1130">
+            <svg style="
+                margin: 0px 10px 10px 0px;
+                padding: 10px;
+                width: 50px;
+                height: 50px;
+                " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path fill="#06e964"
+                d="M477.5 128C463 103.05 285.13 0 256.16 0S49.25 102.79 34.84 128s-14.49 230.8 0 256 192.38 128 221.32 128S463 409.08 477.49 384s14.51-231 .01-256zM316.13 414.22c-4 0-40.91-35.77-38-38.69.87-.87 6.26-1.48 17.55-1.83 0-26.23.59-68.59.94-86.32 0-2-.44-3.43-.44-5.85h-79.93c0 7.1-.46 36.2 1.37 72.88.23 4.54-1.58 6-5.74 5.94-10.13 0-20.27-.11-30.41-.08-4.1 0-5.87-1.53-5.74-6.11.92-33.44 3-84-.15-212.67v-3.17c-9.67-.35-16.38-1-17.26-1.84-2.92-2.92 34.54-38.69 38.49-38.69s41.17 35.78 38.27 38.69c-.87.87-7.9 1.49-16.77 1.84v3.16c-2.42 25.75-2 79.59-2.63 105.39h80.26c0-4.55.39-34.74-1.2-83.64-.1-3.39.95-5.17 4.21-5.2 11.07-.08 22.15-.13 33.23-.06 3.46 0 4.57 1.72 4.5 5.38C333 354.64 336 341.29 336 373.69c8.87.35 16.82 1 17.69 1.84 2.88 2.91-33.62 38.69-37.58 38.69z" />
+            </svg>
+        </a>
+
+        <a target="_blank" style="text-decoration: none" href="https://medium.com/@victoralmeidabarros">
+            <svg style="
+                margin: 0px 10px 10px 0px;
+                padding: 10px;
+                width: 50px;
+                height: 50px;
+                " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path fill="black"
+                d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z" />
+            </svg>
+        </a>
+
+        <a target="_blank" style="text-decoration: none" href="https://victorbarros.hashnode.dev/">
+            <svg style="
+                margin: 0px 10px 10px 0px;
+                padding: 10px;
+                width: 50px;
+                height: 50px;
+                " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path fill="#2962FF"
+                d="M35.19 171.1C-11.72 217.1-11.72 294 35.19 340.9L171.1 476.8C217.1 523.7 294 523.7 340.9 476.8L476.8 340.9C523.7 294 523.7 217.1 476.8 171.1L340.9 35.19C294-11.72 217.1-11.72 171.1 35.19L35.19 171.1zM315.5 315.5C282.6 348.3 229.4 348.3 196.6 315.5C163.7 282.6 163.7 229.4 196.6 196.6C229.4 163.7 282.6 163.7 315.5 196.6C348.3 229.4 348.3 282.6 315.5 315.5z" />
+            </svg>
+        </a>
+        </body>
+
         </html>
     """
 
 
-@app.route("/sextou")
-def sextou():
-    return """
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <title>
-                    Victor Barros'
-                </title>
-            </head>
-            <body>
-                <div class="tenor-gif-embed" data-postid="17007663" data-width="65%" data-aspect-ratio="1.6">
-                    <a style="text-decoration: none" href="https://tenor.com/view/renan-choque-de-cultura-toma-direto-beber-bebida-gif-17007663">Renan Choque De Cultura GIF</a>
-                </div>
-                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-            </body>
-        </html>
-    """
+# @app.route("/sextou")
+# def sextou():
+#     return """
+#         <!DOCTYPE html>
+#         <html>
+#             <head>
+#                 <title>
+#                     Victor Barros'
+#                 </title>
+#             </head>
+#             <body>
+#                 <div class="tenor-gif-embed" data-postid="17007663" data-width="65%" data-aspect-ratio="1.6">
+#                     <a style="text-decoration: none" href="https://tenor.com/view/renan-choque-de-cultura-toma-direto-beber-bebida-gif-17007663">Renan Choque De Cultura GIF</a>
+#                 </div>
+#                 <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+#             </body>
+#         </html>
+#     """
 
 
-@app.route("/wallet")
-def wallet():
-    return """
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <title>
-                    Victor Barros' Wallet
-                </title>
-            </head>
-            <body>
-                <script>
-                    function myFunction() {
-                        navigator.clipboard.writeText("1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx");
-                    }
-                </script>
-                <div align="center">
-                    <h2>Bitcoin Wallet</h2>
-                    <img width="35%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/bitcoin_wallet.png" />
-                    <h3>
-                        1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx
-                        <button onclick="myFunction()">copy</button>
-                    </h3>
-                    <a href="https://www.buymeacoffee.com/victorbarros" target="_blank">
-                        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="60px">
-                    </a>
-                </div>
-            </body>
-        </html>
-    """
+# @app.route("/wallet")
+# def wallet():
+#     return """
+#         <!DOCTYPE html>
+#         <html>
+#             <head>
+#                 <title>
+#                     Victor Barros' Wallet
+#                 </title>
+#             </head>
+#             <body>
+#                 <script>
+#                     function myFunction() {
+#                         navigator.clipboard.writeText("1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx");
+#                     }
+#                 </script>
+#                 <div align="center">
+#                     <h2>Bitcoin Wallet</h2>
+#                     <img width="35%" src="https://raw.githubusercontent.com/victorabarros/victorabarros/master/assets/bitcoin_wallet.png" />
+#                     <h3>
+#                         1AGZAdXc3bfRSZmf11hsUgk7TFia52Yzmx
+#                         <button onclick="myFunction()">copy</button>
+#                     </h3>
+#                     <a href="https://www.buymeacoffee.com/victorbarros" target="_blank">
+#                         <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="60px">
+#                     </a>
+#                 </div>
+#             </body>
+#         </html>
+#     """
 
 
-@app.route("/linkedin")
-def linkedin():
-    return """
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <title>
-                    Victor Barros' Linkedin Badgets
-                </title>
-            </head>
-            <body>
-                <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript">
-                </script>
-                <div align="center">
-                    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
-                </div>
-            </body>
-        </html>
-    """
+# @app.route("/linkedin")
+# def linkedin():
+#     return """
+#         <!DOCTYPE html>
+#         <html>
+#             <head>
+#                 <title>
+#                     Victor Barros' Linkedin Badgets
+#                 </title>
+#             </head>
+#             <body>
+#                 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript">
+#                 </script>
+#                 <div align="center">
+#                     <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
+#                     <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
+#                     <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
+#                     <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
+#                     <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
+#                     <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
+#                     <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
+#                     <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="victor-almeida-barros" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/victor-almeida-barros?trk=profile-badge">Victor Barros</a></div>
+#                 </div>
+#             </body>
+#         </html>
+#     """
 
 
-@app.route("/health-check", methods=["GET"])
-def health_check():
-    return {}, 200
+# @app.route("/health-check", methods=["GET"])
+# def health_check():
+#     return {}, 200
 
 
 if __name__ == "__main__":
