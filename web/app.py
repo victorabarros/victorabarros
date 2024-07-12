@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+    # TODO request content from victorabarros.github.io
     return """
         <!DOCTYPE html>
         <html>
