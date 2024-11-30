@@ -1,13 +1,5 @@
 # notes
 
-## domains
-
--|-
--|-
-[godaddy](https://dcc.godaddy.com/control/portfolio)|bitcoinmetrx.com<br/>vectorgradient.com<br/>victoralmeidabarros.com
-[domains.google](https://domains.google.com/registrar/?_gl=1*osttim*_ga*NjQ4MDU2MTk3LjE3MTc1MTcxMTk.*_ga_9YWT2H669H*MTcxNzUxNzExOS4xLjEuMTcxNzUxNzkyMy4wLjAuMA..)<br/>[squarespace](https://account.squarespace.com/domains)|barros.engineer<br/>uraniumstockbot.com<br/>victorbarros.dev<br/>yoomoney.app
-[cloudflare](https://dash.cloudflare.com/)|capsulecorp.uk
-
 ## TODO
 
 - deploy victorabarros.github.io to website.victorbarros.com
