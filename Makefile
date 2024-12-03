@@ -20,15 +20,6 @@ debug-python:
 	@docker run -it -v ${PWD}:${APP_DIR} -w ${APP_DIR} \
 		-p 8093:80 --rm --name ${APP_NAME}-python-debug python:3.8 bash
 
-run-web:
-	@clear
-	@echo "${YELLOW}Running python app at http://localhost:8094/${COLOR_OFF}"
-	@docker run -it -v ${PWD}:${APP_DIR} -w ${APP_DIR} \
-		-p 8094:80 --rm --name ${APP_NAME}-python python:3.8 \
-		sh -c "\
-			pip3 install -q -r requirements.txt && \
-			python3 web/app.py"
-
 ips:
 	@echo "${YELLOW}ips${COLOR_OFF}"
 	@docker ps -q --filter "name=${APP_NAME}" | xargs docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
