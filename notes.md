@@ -2,7 +2,6 @@
 
 ## TODO
 
-- deploy victorabarros.github.io to website.victorbarros.com
 - [Brazil news/tweets to english](https://github.com/victorabarros/Learning/blob/master/brazilianNewsTranslator/README.md#L1)
 - https://savelev.medium.com/improving-github-profile-with-highlights-and-achievements-be5fcdd558d
 - add current role https://superhuman.com/jobs#:~:text=VICTOR,code%2C%20and%20read
