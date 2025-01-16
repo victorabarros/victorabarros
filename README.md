@@ -6,10 +6,10 @@
   <!-- <a href="https://www.linkedin.com/in/victor-almeida-barros">
     <img width="50%" src="https://github.com/victorabarros/victorabarros/blob/master/assets/linkedin_profile_dark.png?raw=true" />
   </a> -->
-
+<!--
   <a href="https://github.com/victorabarros?tab=repositories&sort=stargazers">
     <img width="50%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=victorabarros&count_private=true&layout=compact&hide_title=true&hide_border=true&hide=html" />
-  </a>
+  </a> -->
 </p>
 
 ----
