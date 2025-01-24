@@ -2,6 +2,7 @@
 
 ## TODO
 
+- re-write readme inpired in https://github.com/f/f/blob/434fbdc5a40961744dc2017665e2aa10f5aaa5f0/README.md?plain=1#L1
 - [Brazil news/tweets to english](https://github.com/victorabarros/Learning/blob/master/brazilianNewsTranslator/README.md#L1)
 - https://savelev.medium.com/improving-github-profile-with-highlights-and-achievements-be5fcdd558d
 - add current role https://superhuman.com/jobs#:~:text=VICTOR,code%2C%20and%20read

@@ -35,4 +35,4 @@ clean-node-modules:
 	@npx npkill
 
 download-youtube-video:
-	@make debug DOCKER_BASE_IMAGE=mikenye/youtube-dl:2024.04.09 COMMAND="${VIDEO} --remux-video mp4"
+	@make debug DOCKER_BASE_IMAGE=mikenye/youtube-dl:latest COMMAND="${VIDEO} --remux-video mp4"
