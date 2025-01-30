@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://terminalgifapi.com/api/v1/gif?commands=[%20%22Set%20FontSize%2030%22,%20%22Set%20TypingSpeed%2080ms%22,%20%22Type%20\%22Hi,%20I%20am%20Victor%20Barros!\%22%22,%20%22Sleep%201s%22,%20%22Type%20\%22%20Passionate%20about%20code,%20run%20and%20sun\%22%22,%20%22Sleep%202s%22,%20%22Backspace%203%22,%20%22Sleep%20100ms%22,%20%22Type%20\%22eat...\%22%22,%20%22Sleep%20500ms%22,%20%22Type%20\%22%20LOl\%22%22,%20%22Sleep%20200ms%22,%20%22Set%20TypingSpeed%200ms%22,%20%22Space%205%22,%20%22Set%20TypingSpeed%2080ms%22,%20%22Type%20\%22Visit%20my%20website\%22%22,%20%22Set%20TypingSpeed%200ms%22,%20%22Space%2020%22,%20%22Set%20TypingSpeed%2080ms%22,%20%22Type%20\%22https://victor.barros.engineer\%22%22,%20%22Sleep%205s%22%20]"/>
+  <img src="http://terminalgifapi.com/api/v1/gif?commands=[%20%22Set%20FontSize%2025%22,%20%22Set%20TypingSpeed%2080ms%22,%20%22Type%20\%22Visit%20\%22%22,%20%22Type%20\%22https://victor.barros.engineer/\%22%22,%20%22Sleep%205s%22%20]"/>
 </p>
 
 <!--
