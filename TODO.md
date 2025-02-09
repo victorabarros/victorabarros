@@ -1,6 +1,4 @@
-# notes
-
-## TODO
+# TODO
 
 - re-write readme inpired in https://github.com/f/f/blob/434fbdc5a40961744dc2017665e2aa10f5aaa5f0/README.md?plain=1#L1
 - [Brazil news/tweets to english](https://github.com/victorabarros/Learning/blob/master/brazilianNewsTranslator/README.md#L1)
