@@ -144,3 +144,5 @@ __pycache__/*
 *id_rsa*
 *.ovpn
 .vscode/
+
+*.mp4
